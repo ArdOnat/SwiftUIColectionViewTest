@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		93B95E252A1B89FA00AB282F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B95E242A1B89FA00AB282F /* AppDelegate.swift */; };
 		93B95E272A1B89FA00AB282F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B95E262A1B89FA00AB282F /* SceneDelegate.swift */; };
-		93B95E292A1B89FA00AB282F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B95E282A1B89FA00AB282F /* ViewController.swift */; };
 		93B95E2C2A1B89FA00AB282F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B95E2A2A1B89FA00AB282F /* Main.storyboard */; };
 		93B95E2E2A1B89FB00AB282F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B95E2D2A1B89FB00AB282F /* Assets.xcassets */; };
 		93B95E312A1B89FB00AB282F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B95E2F2A1B89FB00AB282F /* LaunchScreen.storyboard */; };
-		93B95E3C2A1B89FB00AB282F /* SwiftUIColectionViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B95E3B2A1B89FB00AB282F /* SwiftUIColectionViewTestTests.swift */; };
-		93B95E462A1B89FB00AB282F /* SwiftUIColectionViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B95E452A1B89FB00AB282F /* SwiftUIColectionViewTestUITests.swift */; };
-		93B95E482A1B89FB00AB282F /* SwiftUIColectionViewTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B95E472A1B89FB00AB282F /* SwiftUIColectionViewTestUITestsLaunchTests.swift */; };
+		93B95E552A1B8A0900AB282F /* SwiftUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B95E542A1B8A0900AB282F /* SwiftUICollectionViewCell.swift */; };
+		93B95E582A1B8A2500AB282F /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B95E572A1B8A2500AB282F /* MyCollectionViewCell.swift */; };
+		93B95E5A2A1B8A3800AB282F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B95E592A1B8A3800AB282F /* CardView.swift */; };
+		93B95E5C2A1B8A7800AB282F /* CollectionViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B95E5B2A1B8A7800AB282F /* CollectionViewExample.swift */; };
+		93B95E5E2A1B901300AB282F /* SwiftUIImageResizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B95E5D2A1B901300AB282F /* SwiftUIImageResizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +40,17 @@
 		93B95E212A1B89FA00AB282F /* SwiftUIColectionViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIColectionViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B95E242A1B89FA00AB282F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93B95E262A1B89FA00AB282F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		93B95E282A1B89FA00AB282F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93B95E2B2A1B89FA00AB282F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93B95E2D2A1B89FB00AB282F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93B95E302A1B89FB00AB282F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93B95E322A1B89FB00AB282F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93B95E372A1B89FB00AB282F /* SwiftUIColectionViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIColectionViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		93B95E3B2A1B89FB00AB282F /* SwiftUIColectionViewTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColectionViewTestTests.swift; sourceTree = "<group>"; };
 		93B95E412A1B89FB00AB282F /* SwiftUIColectionViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIColectionViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		93B95E452A1B89FB00AB282F /* SwiftUIColectionViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColectionViewTestUITests.swift; sourceTree = "<group>"; };
-		93B95E472A1B89FB00AB282F /* SwiftUIColectionViewTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColectionViewTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93B95E542A1B8A0900AB282F /* SwiftUICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICollectionViewCell.swift; sourceTree = "<group>"; };
+		93B95E572A1B8A2500AB282F /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		93B95E592A1B8A3800AB282F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		93B95E5B2A1B8A7800AB282F /* CollectionViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewExample.swift; sourceTree = "<group>"; };
+		93B95E5D2A1B901300AB282F /* SwiftUIImageResizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImageResizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				93B95E232A1B89FA00AB282F /* SwiftUIColectionViewTest */,
-				93B95E3A2A1B89FB00AB282F /* SwiftUIColectionViewTestTests */,
-				93B95E442A1B89FB00AB282F /* SwiftUIColectionViewTestUITests */,
 				93B95E222A1B89FA00AB282F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,32 +99,19 @@
 		93B95E232A1B89FA00AB282F /* SwiftUIColectionViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				93B95E2A2A1B89FA00AB282F /* Main.storyboard */,
+				93B95E2F2A1B89FB00AB282F /* LaunchScreen.storyboard */,
 				93B95E242A1B89FA00AB282F /* AppDelegate.swift */,
 				93B95E262A1B89FA00AB282F /* SceneDelegate.swift */,
-				93B95E282A1B89FA00AB282F /* ViewController.swift */,
-				93B95E2A2A1B89FA00AB282F /* Main.storyboard */,
+				93B95E5D2A1B901300AB282F /* SwiftUIImageResizer.swift */,
+				93B95E542A1B8A0900AB282F /* SwiftUICollectionViewCell.swift */,
+				93B95E572A1B8A2500AB282F /* MyCollectionViewCell.swift */,
+				93B95E592A1B8A3800AB282F /* CardView.swift */,
+				93B95E5B2A1B8A7800AB282F /* CollectionViewExample.swift */,
 				93B95E2D2A1B89FB00AB282F /* Assets.xcassets */,
-				93B95E2F2A1B89FB00AB282F /* LaunchScreen.storyboard */,
 				93B95E322A1B89FB00AB282F /* Info.plist */,
 			);
 			path = SwiftUIColectionViewTest;
-			sourceTree = "<group>";
-		};
-		93B95E3A2A1B89FB00AB282F /* SwiftUIColectionViewTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				93B95E3B2A1B89FB00AB282F /* SwiftUIColectionViewTestTests.swift */,
-			);
-			path = SwiftUIColectionViewTestTests;
-			sourceTree = "<group>";
-		};
-		93B95E442A1B89FB00AB282F /* SwiftUIColectionViewTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				93B95E452A1B89FB00AB282F /* SwiftUIColectionViewTestUITests.swift */,
-				93B95E472A1B89FB00AB282F /* SwiftUIColectionViewTestUITestsLaunchTests.swift */,
-			);
-			path = SwiftUIColectionViewTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +245,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93B95E292A1B89FA00AB282F /* ViewController.swift in Sources */,
+				93B95E552A1B8A0900AB282F /* SwiftUICollectionViewCell.swift in Sources */,
+				93B95E582A1B8A2500AB282F /* MyCollectionViewCell.swift in Sources */,
 				93B95E252A1B89FA00AB282F /* AppDelegate.swift in Sources */,
+				93B95E5A2A1B8A3800AB282F /* CardView.swift in Sources */,
 				93B95E272A1B89FA00AB282F /* SceneDelegate.swift in Sources */,
+				93B95E5E2A1B901300AB282F /* SwiftUIImageResizer.swift in Sources */,
+				93B95E5C2A1B8A7800AB282F /* CollectionViewExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93B95E3C2A1B89FB00AB282F /* SwiftUIColectionViewTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93B95E482A1B89FB00AB282F /* SwiftUIColectionViewTestUITestsLaunchTests.swift in Sources */,
-				93B95E462A1B89FB00AB282F /* SwiftUIColectionViewTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
